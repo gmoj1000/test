@@ -13,3 +13,9 @@ unsigned char	reverse_bits(unsigned char octet)
 	}
 	return (result);
 }
+#include <stdio.h>
+int main()
+{
+	unsigned char a = 38;
+	printf("%d %d", a, reverse_bits(a));
+}

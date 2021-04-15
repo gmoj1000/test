@@ -1,22 +1,10 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_list.h                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: exam <marvin@42.fr>                        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/11/14 11:08:31 by exam              #+#    #+#             */
-/*   Updated: 2017/11/14 11:15:27 by exam             ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#ifndef LIST
+# define LIST
 
-#ifndef FT_LIST_H
-# define FT_LIST_H
-
-typedef struct		s_list
+typedef struct    s_list
 {
-	struct s_list	*next;
-	void			*data;
-}					t_list;
+    struct s_list *next;
+    void          *data;
+}                 t_list;
 
 #endif

@@ -15,7 +15,7 @@ void	ft_putnbr(int nb)
 	else
 		ft_putchar(nb + '0');
 }
-
+#include <stdio.h>
 int		ft_atoi(char *str)
 {
 	int i;
@@ -29,6 +29,7 @@ int		ft_atoi(char *str)
 		result += str[i] - '0';
 		i++;
 	}
+	printf("%d", result);
 	return (result);
 }
 
